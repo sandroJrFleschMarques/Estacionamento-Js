@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo de Exercício</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+
+<body>
+    <header>
+        <h1>Entrada e Saída de Veículos</h1>
+    </header>
+    <section>
+        <div id="horaAtual" onload="horaAtual()">
+        </div>
+        <div>
+            <input type="text" name="fnum" id="fnum">
+            <input type="button" value="Adicionar" onclick="adicionar()">
+            <input type="text" name="fsai" id="fsai">
+            <input type="button" name='saida' value="Saída" onclick="saida()">
+            <br><select name="flista" id="flista" size="6"></select>
+            <select name="flista2" id="flista2" size="6"></select>
+            <br><input type="button" value="Pátio" onclick="finalizar()">
+        </div>
+        <div id="resp">
+        </div>
+        <div id="res">
+        </div>
+    </section>
+    <footer>
+        <p>&copy; Jr</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
